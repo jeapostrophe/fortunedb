@@ -1,0 +1,39 @@
+_fortunedb_ : Fortune database
+==========================================
+
+By Jay McCarthy <jay.mccarthy@gmail.com>
+
+Keywords: _misc_
+
+Introduction
+============
+
+Files
+====
+_fortunedb.ss_
+
+_fortunedb.ss_
+---------------
+
+Require it like this:
+
+> (require (planet "fortunedb.ss" ("jaymccarthy" "fortunedb.plt" 1)))
+
+It provides the follow identifiers:
+
+> fortunedb:empty : (fortunedb? alpha)
+
+> fortunedb-choose : (fortunedb? alpha) -> alpha
+
+> fortunedb-load : path? -> (fortunedb? alpha)
+
+Example
+=======
+
+`("Quote1" "Quote2")
+
+History
+======
+
+June 21st
+     * Initial
